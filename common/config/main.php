@@ -5,5 +5,15 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                '<controller:site>/<action:(index|api)>/<path:.*>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>/<id:\w+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>/<status:\w+>/<id:.*>' => '<controller>/<action>',
+            ]
+        ],
     ],
 ];
