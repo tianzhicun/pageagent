@@ -1,53 +1,60 @@
 <?php
 
+use yii\helpers\Url;
+use backend\assets\AppAsset;
+use app\models\agent\Project;
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = '首页';
+AppAsset::addScript($this,'js/pageagent/index.js');
+
+session_start();
+if( !isset($_COOKIE["user"]) ){
+    setcookie("user","newGuest",time()+3600*24);
+    $newvisit = true;
+}else {
+    setcookie("user","oldGuest");
+}
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+      首页
     </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>
+      <div class='index' id="info" style="padding-left: 1000px;">
+          <a href="<?= Url::to(['site/createagent','proid'=>$_GET['proid'],'source'=>$_GET['source']])?>"><button type="button" class="btn btn-primary">成为经纪人</button></a></br>
+          <a href="<?= Url::to(['site/createloupan','proid'=>$_GET['proid'],'source'=>$_GET['source']])?>"><button type="button" class="btn btn-primary">预约楼盘</button></a></br>
+          <a href="<?= Url::to(['site/createques','proid'=>$_GET['proid'],'source'=>$_GET['source']])?>"><button type="button" class="btn btn-primary">我要提问</button></a></br>
+          <a href=""><button type="button" class="btn btn-primary">一键导航</button></a></br>
+          <a href=""><button type="button" class="btn btn-primary">一键拨号</button></a>
+          <a href="<?= Url::to(['site/index','proid'=>$_GET['proid'],'source'=>$_GET['source']])?>"><button type="button" class="btn btn-primary">回到首页</button></a>
+     </div>
 </div>
+<script type="text/javascript">
+    var proid ="<?= isset($model['proid']) ? $model['proid'] : '';?>";
+    var source ="<?= isset($model['source']) ? $model['source'] : '';?>";
+    var link ="<?= isset($model['link']) ? $model['link'] : '';?>";
+    var newvisit= "<?= isset($newvisit) ? $newvisit : false;?>";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

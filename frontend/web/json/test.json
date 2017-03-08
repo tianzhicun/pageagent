@@ -1,0 +1,27 @@
+{ "programmers":[
+
+{ "firstName": "2016", "lastName":"McLaughlin", "email": "aaaa","pic":"4", "num":"5","tel":"6","bac":"4845"},
+
+{ "firstName": "Jason", "lastName":"Hunter", "email": "bbbb","pic":"4", "num":"5","tel":"6","bac":"4845" },
+
+{ "firstName": "Elliotte", "lastName":"Harold", "email": "cccc","pic":"4", "num":"5","tel":"6","bac":"4845" }
+
+],
+
+"authors":[
+
+{ "firstName": "2016", "lastName": "Asimov", "genre": "science fiction","pic":"some", "num":"456","tel":"13016166","bac":"4845" },
+
+{ "firstName": "Tad", "lastName": "Williams", "genre": "fantasy","pic":"some", "num":"456","tel":"13016166","bac":"4845" },
+
+{ "firstName": "Frank", "lastName": "Peretti", "genre": "christian fiction","pic":"some", "num":"456","tel":"13016166","bac":"4845" }
+
+],
+
+"musicians":[
+
+{ "firstName": "2016", "lastName": "Clapton", "instrument": "guitar","pic":"some", "num":"456","tel":"13016166","bac":"4845" },
+
+{ "firstName": "Sergei", "lastName": "Rachmaninoff", "instrument": "piano","pic":"some", "num":"456","tel":"13016166","bac":"4845"}
+
+] }

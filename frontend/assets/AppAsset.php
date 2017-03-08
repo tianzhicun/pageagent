@@ -2,21 +2,25 @@
 
 namespace frontend\assets;
 
-use yii\web\AssetBundle;
+use common\base\BaseAsset;
 
 /**
- * Main frontend application asset bundle.
+ * Main horsespread application asset bundle.
  */
-class AppAsset extends AssetBundle
+class AppAsset extends BaseAsset
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
     ];
     public $js = [
+        'js/utiljs/jquery/jquery-3.1.1.min.js',
+        'js/utiljs/underscore/underscore-min.js',
+        'js/api.js',
+        'js/mobile.js',
+        'js/vue.min.js'
     ];
-    public $depends = [
+     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
     ];

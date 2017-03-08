@@ -22,7 +22,7 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error'],
+                        'actions' => ['index', 'error','createagent','createloupan','createques'],
                         'allow' => true,
                     ],
                     [
@@ -55,7 +55,48 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+        $proid = isset($_GET['proid']) ? $_GET['proid'] : '';
+        $source = isset($_GET['source']) ? $_GET['source'] : '';
+        $link = isset($_GET['link']) ? $_GET['link'] : '';
+        $model = [
+            'proid'=>$proid,
+            'source'=>$source,
+            'link' =>$link,
+        ];
+        return $this->render('index',['model'=>$model]);
+    }
+    
+    public function actionCreateagent()
+    {
+        $proid = isset($_GET['proid']) ? $_GET['proid'] : '';
+        $source = isset($_GET['source']) ? $_GET['source'] : '';
+        $model = [
+            'proid'=>$proid,
+            'source'=>$source,
+        ];
+        return $this->render('createagent',['model'=>$model]);
+    }
+    
+    public function actionCreateloupan()
+    {
+        $proid = isset($_GET['proid']) ? $_GET['proid'] : '';
+        $source = isset($_GET['source']) ? $_GET['source'] : '';
+        $model = [
+            'proid'=>$proid,
+            'source'=>$source,
+        ];
+        return $this->render('createloupan',['model'=>$model]);
+    }
+    
+    public function actionCreateques()
+    {
+        $proid = isset($_GET['proid']) ? $_GET['proid'] : '';
+        $source = isset($_GET['source']) ? $_GET['source'] : '';
+        $model = [
+            'proid'=>$proid,
+            'source'=>$source,
+        ];
+        return $this->render('createques',['model'=>$model]);
     }
 
     public function actionLogin()
@@ -77,7 +118,6 @@ class SiteController extends Controller
     public function actionLogout()
     {
         Yii::$app->user->logout();
-
         return $this->goHome();
     }
 }

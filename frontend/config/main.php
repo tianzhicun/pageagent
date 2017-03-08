@@ -36,6 +36,25 @@ return [
             ],
         ],
         */
+        'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'jsOptions' => [
+                        'position' => yii\web\View::POS_HEAD
+                    ]
+                ],
+           /*       'yii\bootstrap\BootstrapAsset' => [
+                    'css' => []
+                ],  */
+            ]
+        ],
+        //当前应用的api相关配置
+        'api'=>[
+            'class' => 'frontend\components\api\Adapter',
+            'auth' =>[
+                'pageagent' => true,
+            ],
+        ],
     ],
     'params' => $params,
 ];

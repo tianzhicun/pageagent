@@ -1,0 +1,1292 @@
+2017-03-06 17:04:00 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:04:00 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57608'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791040.182
+    'REQUEST_TIME' => 1488791040
+]
+2017-03-06 17:04:07 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:04:07 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57621'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791047.3284
+    'REQUEST_TIME' => 1488791047
+]
+2017-03-06 17:08:21 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:08:21 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57853'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791301.4599
+    'REQUEST_TIME' => 1488791301
+]
+2017-03-06 17:08:25 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:08:25 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57853'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791305.2571
+    'REQUEST_TIME' => 1488791305
+]
+2017-03-06 17:08:48 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:08:48 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57888'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791328.1734
+    'REQUEST_TIME' => 1488791328
+]
+2017-03-06 17:09:55 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:09:54 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1872'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '57944'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791394.9923
+    'REQUEST_TIME' => 1488791394
+]
+2017-03-06 17:12:13 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:12:13 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58082'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791533.6852
+    'REQUEST_TIME' => 1488791533
+]
+2017-03-06 17:16:13 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:16:13 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58237'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791773.8429
+    'REQUEST_TIME' => 1488791773
+]
+2017-03-06 17:16:15 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:16:15 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58241'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791775.751
+    'REQUEST_TIME' => 1488791775
+]
+2017-03-06 17:19:32 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:19:32 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58407'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791972.5793
+    'REQUEST_TIME' => 1488791972
+]
+2017-03-06 17:19:35 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:19:35 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58407'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488791975.8015
+    'REQUEST_TIME' => 1488791975
+]
+2017-03-06 17:20:49 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:20:49 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58463'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792049.0907
+    'REQUEST_TIME' => 1488792049
+]
+2017-03-06 17:23:38 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:23:38 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58587'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792218.0563
+    'REQUEST_TIME' => 1488792218
+]
+2017-03-06 17:23:40 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:23:40 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58587'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792220.7375
+    'REQUEST_TIME' => 1488792220
+]
+2017-03-06 17:23:42 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:23:42 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58587'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792222.5376
+    'REQUEST_TIME' => 1488792222
+]
+2017-03-06 17:23:46 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:23:46 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58587'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792226.0018
+    'REQUEST_TIME' => 1488792226
+]
+2017-03-06 17:29:32 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:29:32 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58874'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792572.9396
+    'REQUEST_TIME' => 1488792572
+]
+2017-03-06 17:29:35 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:29:35 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58878'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792575.3118
+    'REQUEST_TIME' => 1488792575
+]
+2017-03-06 17:31:17 [::1][1][hdd0igum1gjbav33a1s4118eu2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/vue.min.js.map".' in D:\WWW\pageagent\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('js/vue.min.js.m...', Array)
+#1 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\pageagent\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\pageagent\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\pageagent\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-03-06 17:31:17 [::1][1][hdd0igum1gjbav33a1s4118eu2][info][application] $_COOKIE = [
+    'pgv_pvi' => '1121125376'
+    'a4788_times' => '2'
+    'CNZZDATA1257060758' => '1339110904-1453277767-http%3A%2F%2Flocalhost%2F|1479895007'
+    '_csrf' => '294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy\";}'
+    'PHPSESSID' => 'hdd0igum1gjbav33a1s4118eu2'
+    '_identity' => '6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"PtOchI2IunIx9o666JDsK_mPmmvxzrn2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\tools\\svn\\VisualSVNserver\\bin;D:\\tools\\composer;D:\\tools\\phpstudy\\phpStudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\tools\\npx\\nodejs\\;D:\\tools\\svn\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/tools/phpstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/pageagent/frontend/web/index.php'
+    'REQUEST_URI' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/pageagent/frontend/web/js/vue.min.js.map'
+    'REMOTE_PORT' => '58946'
+    'SCRIPT_FILENAME' => 'D:/WWW/pageagent/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=1121125376; a4788_times=2; CNZZDATA1257060758=1339110904-1453277767-http%253A%252F%252Flocalhost%252F%7C1479895007; _csrf=294e52be6bbc4ad6f4458aa8ba4bb6fdbdf81a2ada75e4300e7d89a6e713da2da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QNbbtJwEnbEOJVMRZMyVUw1Zt_LKynGy%22%3B%7D; PHPSESSID=hdd0igum1gjbav33a1s4118eu2; _identity=6aeba070631c3335e39148f28451bc72c8c7ef68e94424ea6c713355c85becffa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PtOchI2IunIx9o666JDsK_mPmmvxzrn2%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2107.201 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/pageagent/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488792677.5236
+    'REQUEST_TIME' => 1488792677
+]
