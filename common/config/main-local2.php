@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=120.77.68.168;dbname=pageangent',
+            'dsn' => 'mysql:host=;dbname=pageangent',
             'username' => 'root',
-            'password' => 'WSXytdf159615@db',
+            'password' => '',
             'charset' => 'utf8',
             'tablePrefix' => 'agent_',
         ],
